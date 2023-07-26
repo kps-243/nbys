@@ -1,10 +1,39 @@
+/* Font Garet */
+@font-face {
+  font-family: 'garet-book';
+  src: url('../fonts/Garet-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'garet-book';
+  src: url('../fonts/Garet-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'garet-heavy';
+  src: url('../fonts/Garet-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'garet-heavy';
+  src: url('../fonts/Garet-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
-  --vt-c-black: #181818;
+  --vt-c-black: #090807;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
@@ -64,10 +93,19 @@ body {
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'garet-book', sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.garet-heavy {
+  font-family: 'garet-heavy', sans-serif;
 }
