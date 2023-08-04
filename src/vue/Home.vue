@@ -3,6 +3,7 @@ import Button from './../components/Button.vue'
 import Title from './../components/Title.vue'
 import Service from './../components/Service.vue'
 import Why from './../components/Why.vue'
+import Project from './../components/Project.vue'
 </script>
 
 <template>
@@ -21,7 +22,7 @@ import Why from './../components/Why.vue'
         </div>
     </section>
 
-    <section class="py-24 bg-who bg-center bg-left w-full">
+    <section class="py-24 bg-who bg-cover w-full">
         <div class="container flex flex-col items-center justify-center gap-10 !py-10">
             <Title title="Who we are" />
             <p>Write a paragraph that talks about your company here. 
@@ -45,12 +46,24 @@ import Why from './../components/Why.vue'
     <section class="py-10">
         <div class="container flex flex-col justify-center items-center gap-10">
             <Title title="Why choose us" />
-            
             <Why />
-           
         </div>
     </section>
-
+    
+    <section class="py-24 bg-attention bg-center bg-cover w-full">
+        <div class="container flex flex-col text-center gap-10 !py-10">
+            <p>
+                Grab the reader's attention with a descriptive line that hypes your event,
+                product, or service. A short and relevant quote works, too!
+            </p>
+        </div>
+    </section>
    
+    <section class="py-10">
+        <div class="container flex flex-col text-center gap-4">
+            <Title title="Projets" />
+            <Project />
+        </div>
+    </section>
 </div>
 </template>

@@ -136,3 +136,7 @@ body {
 .bg-who{
     background-image: url(./../assets/img/who.png);
 }
+
+.bg-attention{
+  background-image: url(./../assets/img/attention.jpg);
+}
