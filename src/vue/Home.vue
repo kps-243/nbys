@@ -2,6 +2,7 @@
 import Button from './../components/Button.vue'
 import Title from './../components/Title.vue'
 import Service from './../components/Service.vue'
+import Why from './../components/Why.vue'
 </script>
 
 <template>
@@ -38,6 +39,15 @@ import Service from './../components/Service.vue'
             <div>
                 <Service />
             </div>
+        </div>
+    </section>
+
+    <section class="py-10">
+        <div class="container flex flex-col justify-center items-center gap-10">
+            <Title title="Why choose us" />
+            
+            <Why />
+           
         </div>
     </section>
 
