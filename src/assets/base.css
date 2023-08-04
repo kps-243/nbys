@@ -132,3 +132,7 @@ body {
 .border-purple {
   border-color: var(--color-border);
 }
+
+.bg-who{
+    background-image: url(./../assets/img/who.png);
+}

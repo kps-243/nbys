@@ -2,7 +2,7 @@
 </script>
 <template>
     <div class="pt-6">
-      <div class="flex justify-between items-center">
+      <div class="container flex justify-between items-center">
         <img alt="Nbys logo" class="z-20 w-14 h-auto" src="./../assets/img/logo.svg" />
         <div class="lg:hidden">
             <div class="">
