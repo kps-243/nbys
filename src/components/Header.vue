@@ -1,9 +1,9 @@
 <script setup>
 </script>
 <template>
-    <div class="mx-auto">
+    <div class="pt-6">
       <div class="flex justify-between items-center">
-        <img alt="Nbys logo" class="z-20 w-28 h-auto" src="./../assets/img/logo.svg" />
+        <img alt="Nbys logo" class="z-20 w-14 h-auto" src="./../assets/img/logo.svg" />
         <div class="lg:hidden">
             <div class="">
                 <img  v-if="!menuOpen" @click="toggleMenu" src="./../assets/img/burger.svg" alt="NbyS - icon Burger">

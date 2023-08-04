@@ -1,14 +1,29 @@
 /* Font Garet */
+
 @font-face {
-  font-family: 'garet-book';
-  src: url('../fonts/Garet-Book.woff2') format('woff2');
+  font-family: 'garet-light';
+  src: url('../assets/font/Garet-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'garet-light';
+  src: url('../assets/font/Garet-Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'garet-book';
-  src: url('../fonts/Garet-Book.woff') format('woff');
+  src: url('../assets/font/Garet-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'garet-book';
+  src: url('../assets/font/Garet-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -40,7 +55,7 @@
   --vt-c-indigo: #D6D5D0;
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-light-2: #721ED1;
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
   --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
 
@@ -71,7 +86,7 @@
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
-    --color-border: var(--vt-c-divider-dark-2);
+    --color-border: #721ED1;
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: #721ED1;
@@ -112,4 +127,8 @@ body {
 
 .text-purple {
   color: var(--color-heading);
+}
+
+.border-purple {
+  border-color: var(--color-border);
 }
