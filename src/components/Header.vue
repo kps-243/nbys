@@ -1,6 +1,7 @@
 <script setup>
 </script>
 <template>
+  <header>
     <div class="pt-6">
       <div class="container flex justify-between items-center">
         <img alt="Nbys logo" class="z-20 w-14 h-auto" src="./../assets/img/logo.svg" />
@@ -19,6 +20,7 @@
           </ul>
       </div>   
     </div>
+  </header>
 </template>
 <script>
 export default {

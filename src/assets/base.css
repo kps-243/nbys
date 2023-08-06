@@ -104,8 +104,8 @@
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
+  color: #D6D5D0;
+  background: #090807;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: 'garet-book', sans-serif;
@@ -126,7 +126,7 @@ body {
 }
 
 .text-purple {
-  color: var(--color-heading);
+  color: var(--color-border);
 }
 
 .border-purple {

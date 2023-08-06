@@ -7,7 +7,6 @@ import Project from './../components/Project.vue'
 </script>
 
 <template>
-    <div>
     <section class="pt-16 pb-5">
         <div class="container flex flex-col gap-10">
             <div class="flex flex-col gap-8">
@@ -65,5 +64,4 @@ import Project from './../components/Project.vue'
             <Project />
         </div>
     </section>
-</div>
 </template>
