@@ -42,7 +42,7 @@ import Project from './../components/Project.vue'
         </div>
     </section>
 
-    <section class="py-10">
+    <section class="py-20">
         <div class="container flex flex-col justify-center items-center gap-10">
             <Title title="Why choose us" />
             <Why />
@@ -51,7 +51,7 @@ import Project from './../components/Project.vue'
     
     <section class="py-24 bg-attention bg-center bg-cover w-full">
         <div class="container flex flex-col text-center gap-10 !py-10">
-            <p class="text-6xl">
+            <p class="lg:text-6xl">
                 Grab the reader's attention with a descriptive line that hypes your event,
                 product, or service. A short and relevant quote works, too!
             </p>
@@ -59,7 +59,7 @@ import Project from './../components/Project.vue'
     </section>
    
     <section class="py-10">
-        <div class="container flex flex-col text-center gap-4">
+        <div class="container flex flex-col gap-12">
             <Title title="Projets" />
             <Project />
         </div>

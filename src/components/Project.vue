@@ -2,14 +2,18 @@
 import Button from './../components/Button.vue'
 </script>
 <template>
-    <div class="flex flex-col items-center justify-center gap-8">
-        <div v-for="project in projects" :key="project.id" class="flex flex-col justify-center items-center gap-10 py-3">
-            <div class="flex flex-col gap-5 text-center">
-                <h2 class="text-2xl text-purple">{{ project.title }}</h2>
-                <a :href="project.link"><img :src="project.src" :alt="project.alt" class="w-full h-auto" ></a>
-                <p class="text-lg">{{ project.text }}</p>
+    <div class="flex flex-col gap-8">
+        <div v-for="project in projects" :key="project.id" class="flex flex-col gap-10 py-3">
+            <div class="flex flex-col justify-center items-center gap-5">
+                <h2 class="text-2xl lg:text-4xl text-purple">{{ project.title }}</h2>
+                <div class="w-full">
+                  <a :href="project.link"><img :src="project.src" :alt="project.alt" class="" ></a>
+                </div>
             </div>
-            <Button text="View Project" :href="project.link" />
+            <div class="flex flex-col items-center lg:items-start text-center lg:text-left gap-6">
+              <p class="text-lg lg:text-xl">{{ project.text }}</p>
+              <Button text="View Project" :href="project.link" />
+            </div>
         </div>
     </div>
 </template>
