@@ -8,7 +8,7 @@ defineProps({
 </script>
 <template>
     <a :href="link">
-      <button class="text-purple px-10 py-3 rounded-full border border-purple">
+      <button class="text-purple px-10 py-3 rounded-full border border-purple lg:text-lg lg:px-16">
         {{ text }}
     </button>
     </a>

@@ -8,28 +8,30 @@ import Project from './../components/Project.vue'
 
 <template>
     <section class="pt-16 pb-5">
-        <div class="container flex flex-col gap-10">
-            <div class="flex flex-col gap-8">
-                <h1 class="text-purple text-4xl">IT Solutions that transform your business</h1>
+        <div class="container flex flex-col lg:flex-row lg:items-center gap-10">
+            <div class="w-full lg:w-1/2 flex flex-col gap-8">
+                <h1 class="text-purple text-4xl lg:text-7xl">IT Solutions that transform your business</h1>
                 <div class="w-1/2">
                     <Button text="Learn more" />
                 </div>
             </div>
-            <div class="w-full">
-                <img src="./../assets/img/home.webp" alt="Near By Site - Home" class="bg-cover">
+            <div class="w-full lg:w-1/2">
+                <img src="./../assets/img/home.webp" alt="Near By Site - Home" class="h-[700px] w-full">
             </div>
         </div>
     </section>
 
     <section class="py-24 bg-who bg-cover w-full">
-        <div class="container flex flex-col items-center justify-center gap-10 !py-10">
-            <Title title="Who we are" />
-            <p>Write a paragraph that talks about your company here. 
-                You can talk about your company's background, history, mission,
-                vision, or philosophy. Anything that will introduce your brand's
-                persona to your clients. This will help build a connection between you and
-                them, that hopefully leads into a working relationship.
-            </p>
+        <div class="container mx-auto flex flex-col items-center justify-center gap-10 !py-10">
+            <div class="flex flex-col gap-10 px-24 text-center">
+                <Title title="Who we are" />
+                <p class="text-lg">Write a paragraph that talks about your company here. 
+                    You can talk about your company's background, history, mission,
+                    vision, or philosophy. Anything that will introduce your brand's
+                    persona to your clients. This will help build a connection between you and
+                    them, that hopefully leads into a working relationship.
+                </p>
+            </div>
         </div>
     </section>
 
