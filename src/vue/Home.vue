@@ -23,7 +23,7 @@ import Project from './../components/Project.vue'
 
     <section class="py-24 bg-who bg-cover w-full">
         <div class="container mx-auto flex flex-col items-center justify-center gap-10 !py-10">
-            <div class="flex flex-col gap-10 px-24 text-center">
+            <div class="flex flex-col gap-10 lg:px-24 text-center">
                 <Title title="Who we are" />
                 <p class="text-lg">Write a paragraph that talks about your company here. 
                     You can talk about your company's background, history, mission,
@@ -38,9 +38,7 @@ import Project from './../components/Project.vue'
     <section class="py-10">
         <div class="container flex flex-col justify-center items-center gap-10">
             <Title title="Our Services" />
-            <div>
-                <Service />
-            </div>
+            <Service />
         </div>
     </section>
 
@@ -53,7 +51,7 @@ import Project from './../components/Project.vue'
     
     <section class="py-24 bg-attention bg-center bg-cover w-full">
         <div class="container flex flex-col text-center gap-10 !py-10">
-            <p>
+            <p class="text-6xl">
                 Grab the reader's attention with a descriptive line that hypes your event,
                 product, or service. A short and relevant quote works, too!
             </p>

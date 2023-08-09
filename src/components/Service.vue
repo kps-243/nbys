@@ -1,11 +1,13 @@
 <template>
-    <div v-for="service in services" :key="service.id" class="flex flex-col justify-center items-center gap-3 py-7">
+  <div class="flex flex-col lg:flex-row gap-6">
+    <div v-for="service in services" :key="service.id" class="flex flex-col justify-center items-center gap-3 py-7 w-full lg:w-1/3">
         <img :src="service.src" :alt="service.alt" class="w-full h-72 object-cover" >
         <div class="flex flex-col gap-3 text-center">
             <h2 class="text-2xl text-purple">{{ service.title }}</h2>
             <p class="text-lg">{{ service.text }}</p>
         </div>
     </div>
+  </div>
 </template>
 <script>
 export default {

@@ -1,7 +1,7 @@
 <template>
-    <div class="w-4/6 flex flex-col items-center justify-center gap-8">
-        <div v-for="why in whys" :key="why.id" class="flex flex-col justify-center items-center gap-3 py-24 px-5 border border-purple rounded-[70px] ">
-            <div class="flex flex-col gap-5 text-center">
+    <div class="w-4/5 lg:w-full flex flex-col lg:flex-row items-center justify-center gap-36">
+        <div v-for="why in whys" :key="why.id" class="flex flex-col justify-center items-center gap-3 py-24 px-5 border border-purple rounded-[70px] w-full">
+            <div class="flex flex-col gap-8 text-center">
                 <h2 class="text-2xl text-purple">{{ why.title }}</h2>
                 <img :src="why.src" :alt="why.alt" class="w-full h-16" >
                 <p class="text-lg">{{ why.text }}</p>
